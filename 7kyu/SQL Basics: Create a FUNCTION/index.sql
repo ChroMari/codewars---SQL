@@ -1,0 +1,6 @@
+CREATE FUNCTION increment(num NUMERIC)
+RETURNS NUMERIC AS $$
+BEGIN
+ RETURN num + 1;
+END; $$
+LANGUAGE plpgsql;
