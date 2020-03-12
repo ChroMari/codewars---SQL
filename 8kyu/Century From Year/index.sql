@@ -1,0 +1,2 @@
+SELECT CEILING(yr/100.00) AS Century
+FROM years
